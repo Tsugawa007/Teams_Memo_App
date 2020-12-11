@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Memo_Tab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
+  <!-- inject:css -->
+  <!-- endinject --> 
+</head>
+
+<body>
+  <div id='app'>
+    MY Memo
+  </div>
+  <textarea name="todo"  rows="4" cols="40"></textarea>
+  <button type="button" name="register">登録</button>
+  <table id="table">
+    <thead>
+      <tr>
+        <th>Memo</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <!-- inject:js -->
+  <!-- endinject -->
+  <script type='text/javascript'>
+    1126Sample.MemoTab.render(document.getElementById('app'), {});
+  </script>
+</body>
+
+</html>

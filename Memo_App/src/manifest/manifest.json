@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "{{APPLICATION_ID}}",
+  "version": "{{VERSION}}",
+  "packageName": "{{PACKAGE_NAME}}",
+  "developer": {
+    "name": "tech.c",
+    "websiteUrl": "https://{{HOSTNAME}}",
+    "privacyUrl": "https://{{HOSTNAME}}/privacy.html",
+    "termsOfUseUrl": "https://{{HOSTNAME}}/tou.html"
+  },
+  "name": {
+    "short": "1126_title",
+    "full": "1126_title"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "897e772e-40a0-4de0-baca-886b2c66029e",
+      "name": "Memo_Tab",
+      "contentUrl": "https://{{HOSTNAME}}/memoTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "{{HOSTNAME}}"
+  ],
+  "showLoadingIndicator": false,
+  "isFullScreen": true
+}
