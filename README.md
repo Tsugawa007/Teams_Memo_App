@@ -7,9 +7,9 @@ pcを触ってから２年経ったので、そろそろjavascriptの勉強を�
 
 この2点の理由から、Teamsで使用できるMemoAppを作ろうと思いました。
 
-＃ 進捗
+# 進捗
 原型はできました。
-
+![demo](https://github.com/Maiko007/Teams_Memo_App/blob/master/demo2.gif)
 
 
 
