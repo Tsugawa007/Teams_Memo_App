@@ -9,6 +9,7 @@ pcを触ってから２年経ったので、そろそろjavascriptの勉強を�
 
 # 進捗
 原型はできました。
+
 ![demo](https://github.com/Maiko007/Teams_Memo_App/blob/master/demo2.gif)
 
 
