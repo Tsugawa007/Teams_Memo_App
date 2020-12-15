@@ -16,6 +16,7 @@ pcを触ってから２年経ったので、そろそろjavascriptの勉強を�
 
 
 
+
 今後する作業は、
 memoappのdecorationをもっときれいにすること、dbのlayoutを決める、追加の機能を付けたいです。
 
